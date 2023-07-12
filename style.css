@@ -73,7 +73,6 @@ main {
 article {
     text-align: center;
     margin: auto;
-    padding-top: 40px;
 }
 
 article > h1.titulo {
