@@ -63,7 +63,9 @@ nav > a:hover {
 
 main {
     min-width: 300px;
-    max-width: auto;
+    max-width: 1050px;
+    padding: 20px;
+    margin: auto;
     
    
 }
