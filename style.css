@@ -260,6 +260,12 @@ div > h1 {
 
 }
 
+div#final {
+    height: 100px;
+    background-image: url(img/pattern002.png);
+    background-repeat: repeat-x;  /*repete a imagem somente no eixo x, porém a largura da div ja faz isso*/
+}
+
 footer {
     background-color: var(--rosa);
   
