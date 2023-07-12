@@ -25,7 +25,6 @@
 header {
     min-width: 320px;
     max-width: auto;
-    height: 130px;
     background-color: var(--rosa);
     box-shadow: 5px 5px 8px #7c4142;
 }
@@ -47,6 +46,7 @@ nav {
     background-color: var(--rosaclaro);
     text-align: center;
     
+    
 }
 
 nav > a {
@@ -62,12 +62,13 @@ nav > a:hover {
 }
 
 main {
-    margin: 20px;
+    min-width: 300px;
+    max-width: auto;
+    
+   
 }
 
 article {
-    min-width: 320px;
-    max-width: 1050px;
     text-align: center;
     margin: auto;
     padding-top: 40px;
@@ -79,6 +80,7 @@ article > h1.titulo {
     font-weight: 500;
     display: inline-block;
     padding: 10px 0px ;
+    
 }
 
 article > h2 {
@@ -113,6 +115,7 @@ picture {
 
 picture > img {
     width: 100%;
+    
 }
 
 article > p {
@@ -122,7 +125,7 @@ article > p {
     margin: auto;
     text-indent: 20px;
     line-height: 1.5;
-    padding: 10px 0px;  
+      
 }
 
 #leia-tmb{
