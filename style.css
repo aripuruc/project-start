@@ -27,6 +27,9 @@ header {
     max-width: auto;
     background-color: var(--rosa);
     box-shadow: 5px 5px 8px #7c4142;
+    position: sticky;
+    top: 0; 
+
 }
 
 header > img {
@@ -44,8 +47,7 @@ header > p {
 nav {
     width: 100%;
     background-color: var(--rosaclaro);
-    text-align: center;
-    
+    text-align: center;    
     
 }
 
@@ -66,8 +68,6 @@ main {
     max-width: 1050px;
     padding: 40px;
     margin: auto;
-    
-   
 }
 
 article {
@@ -81,7 +81,6 @@ article > h1.titulo {
     font-weight: 500;
     display: inline-block;
     padding: 10px 0px ;
-    
 }
 
 article > h2 {
@@ -110,13 +109,11 @@ article > h2 {
 }
 picture {
     display: block;
-    margin: 10px 0px;
-    
+    margin: 10px 0px; 
 }
 
 picture > img {
     width: 100%;
-    
 }
 
 article > p {
@@ -125,8 +122,7 @@ article > p {
     max-width: 550px;   
     margin: auto;
     text-indent: 20px;
-    line-height: 1.5;
-      
+    line-height: 1.5;     
 }
 
 #leia-tmb{
@@ -134,7 +130,6 @@ article > p {
     margin: auto;
     text-align: left;
     padding: 15px;
-
 }
 
 #leia-tmb > a {
@@ -158,8 +153,7 @@ article > ol {
     font-size: 1.6em;
     color: var(--red);
     border: 2px var(--red) dotted;
-    border-width: unset;
-    
+    border-width: unset;  
 }
 
 #relacao {
@@ -179,7 +173,6 @@ p.tagrel{
     font-size: 0.7em;
     margin: 30px 10px;
     box-shadow: 5px 5px 5px var(--rosaclaro);
-
 }
 
 p.tagrel:hover {
@@ -222,7 +215,6 @@ section#mais {
     max-width: 100%;
     margin: auto;
     text-align: center;
-
 }
 
 #titulo-LeiaMais {
@@ -239,8 +231,7 @@ section#mais {
     display: inline-block;
     width: 200px;
     margin-bottom: 10px;
-    background-color: var(--white);
-    
+    background-color: var(--white);  
 }
 
 div:hover {
@@ -256,7 +247,6 @@ div > h1 {
     font-family: var(--font-spartan);
     font-size: 0.8em;
     padding: 10px;
-
 }
 
 div#final {
@@ -272,8 +262,7 @@ footer {
 
 footer > img {
     text-align: left;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 footer > p {
